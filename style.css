@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(252, 250, 250);
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.lampada{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
